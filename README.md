@@ -1,14 +1,12 @@
 # HealthRecords
 ### On MongoDB      
-NoSQL databse project for the healthcare industry hosted in [mongoDB Alas](https://www.mongodb.com/cloud/atlas)     
+NoSQL database project for the healthcare industry hosted in [mongoDB Atlas](https://www.mongodb.com/cloud/atlas)     
 The collectins can be viewed locally using **MongoDB Compass** as illustrated below:
 
 ##### Hospitals Collection
 ![hospitals](hospitals.png "hospitals")
 ##### Doctors Collection
 ![doctors](doctors.png "doctors")
-##### Owners Table
-![owner table](owners.png "owner table")
 
 ### mongodbHealth.py
 Written in [Python 3.9](https://python.org) and [mongoDB NoSQL](https://www.mongodb.com/)     
