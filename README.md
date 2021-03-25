@@ -18,7 +18,7 @@ The following is the procedure followed in the code:
 #### createcols()
 - Inserts documents into the collections from a list of dictionaies.
 #### joincols()
-- Joins the 2 collections using the *hospital_id* and displays the documents on the terminal as shoen below:
+- Joins the 2 collections using the *hospital_id* and displays the documents on the terminal as shown below:
 ##### Joined Documents
 ![join](join.png "join")
 #### displayhtml()
