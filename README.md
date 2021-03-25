@@ -1,6 +1,6 @@
 # HealthRecords
-On MongoDB
-A  NoSQL databse project for the healthcare industry hosted in [mongoDB Alas](https://www.mongodb.com/cloud/atlas)     
+### On MongoDB      
+NoSQL databse project for the healthcare industry hosted in [mongoDB Alas](https://www.mongodb.com/cloud/atlas)     
 The collectins can be viewed locally using **MongoDB Compass** as illustrated below:
 
 ##### Hospitals Collection
