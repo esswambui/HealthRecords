@@ -1,14 +1,12 @@
 # HealthRecords
 ### On MongoDB      
-NoSQL databse project for the healthcare industry hosted in [mongoDB Alas](https://www.mongodb.com/cloud/atlas)     
+NoSQL database project for the healthcare industry hosted in [mongoDB Atlas](https://www.mongodb.com/cloud/atlas)     
 The collectins can be viewed locally using **MongoDB Compass** as illustrated below:
 
 ##### Hospitals Collection
 ![hospitals](hospitals.png "hospitals")
 ##### Doctors Collection
 ![doctors](doctors.png "doctors")
-##### Owners Table
-![owner table](owners.png "owner table")
 
 ### mongodbHealth.py
 Written in [Python 3.9](https://python.org) and [mongoDB NoSQL](https://www.mongodb.com/)     
@@ -20,7 +18,7 @@ The following is the procedure followed in the code:
 #### createcols()
 - Inserts documents into the collections from a list of dictionaies.
 #### joincols()
-- Joins the 2 collections using the *hospital_id* and displays the documents on the terminal as shoen below:
+- Joins the 2 collections using the *hospital_id* and displays the documents on the terminal as shown below:
 ##### Joined Documents
 ![join](join.png "join")
 #### displayhtml()
