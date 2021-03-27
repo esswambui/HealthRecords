@@ -52,6 +52,12 @@ def querysalary():
         print(x)
 
 
+the_join = []
+
+tbl = "<tr><td>_id</td><td>hospital_id</td><td>hospital_name</td><td>address</td><td>hospital_join</td></tr>"
+the_join.append(tbl)
+
+
 def joincols():
     # Use aggregate function to join the tables
     join_cursor = db.Hospitals.aggregate(
@@ -67,9 +73,20 @@ def joincols():
         ]
     )
 
-    # print results line by line
-    for j in join_cursor:
-        print(j)
+   # print results line by line
+    for y in join_cursor:
+        # print(j)
+
+        a = "<tr><td>%s</td>" % y['_id']
+        the_join.append(a)
+        b = "<td>%s</td>" % y['hospital_id']
+        the_join.append(b)
+        c = "<td>%s</td>" % y['hospital_name']
+        the_join.append(c)
+        d = "<td>%s</td></tr>" % y['address']
+        the_join.append(d)
+        e = "<td>%s</td></tr>" % y['hospital_join']
+        the_join.append(e)
 
 
 # Enter hospital docs as a list of html records
@@ -134,8 +151,12 @@ def displayhtml():
         <thead><caption><h2> Doctors </h2></caption></thead>
         %s
         </table>
+         <table style="border: solid; border-spacing: 25px, border-collapse: collapse;">
+        <thead><caption><h2> Joined </h2></caption></thead>
+        %s
+        </table>
     </body>
-    </html>''' % (health, docs)  # from list
+    </html>''' % (health, docs, the_join)  # from list
 
     # write to html file
     f.write(the_html)

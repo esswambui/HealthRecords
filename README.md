@@ -24,6 +24,6 @@ The following is the procedure followed in the code:
 ##### Joined Documents
 ![join](join.png "join")
 #### displayhtml()
-- Displays the collection on a web browser as shown:
+- Displays the collections on a web browser as shown:
 ##### On Google Chrome
 ![html](the_html.png "html")
