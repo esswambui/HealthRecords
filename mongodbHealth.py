@@ -3,7 +3,7 @@ import dns
 import webbrowser
 
 conn = pymongo.MongoClient(
-    "mongodb+srv://ess:newlight@cluster0.igqz6.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+    "mongodb+srv://username:password@cluster0.igqz6.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 
 # Create database
 db = conn["HealthRecords"]
